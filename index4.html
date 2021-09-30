@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>StudentData</title>
+  </head>
+  <body>
+    <form>
+      <div>
+        <label for="sname">studentName</label>
+        <input type="text" name="sname" id="sname" onchange="info(event)" />
+      </div>
+      <div>
+        <label for="mno">mobileNo</label>
+        <input type="text" name="mno" id="mno" onchange="info(event)" />
+      </div>
+      <div>
+        <label for="mail">email</label>
+        <input type="text" name="mail" id="mail" onchange="info(event)" />
+      </div>
+      <div>
+        <button id="btn" type="button">view</button>
+      </div>
+    </form>
+    <ul id="res"></ul>
+    <script src="student.js"></script>
+  </body>
+</html>
